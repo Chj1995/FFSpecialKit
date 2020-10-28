@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFSpecialKit'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'A short description of FFSpecialKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.subspect 'Special(专题)' do |ss|
+  #s.subspect 'Special(专题)' do |ss|
   s.source_files = '************/Classes/Special(专题)/*.{h,m}'
   
 #   s.resource_bundles = {
