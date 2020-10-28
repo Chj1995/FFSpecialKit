@@ -20,7 +20,18 @@ PODS:
   - FFConfigsKit (1.0.0)
   - FFMainViewKit (1.0.0)
   - FFReformerKeysKit (1.0.0)
-  - FFSpecialKit (1.0.5):
+  - FFSpecialKit (1.1.0):
+    - FFAPIsKit
+    - FFCategoryKit
+    - FFConfigsKit
+    - FFMainViewKit
+    - FFReformerKeysKit
+    - "FFSpecialKit/Special(专题) (= 1.1.0)"
+    - FFToolsKit
+    - Masonry
+    - ReactiveCocoa (~> 2.5)
+    - YYWebImage
+  - "FFSpecialKit/Special(专题) (1.1.0)":
     - FFAPIsKit
     - FFCategoryKit
     - FFConfigsKit
@@ -86,7 +97,7 @@ SPEC CHECKSUMS:
   FFConfigsKit: b8d7e09359ed5c69537172ad87c48537ff241754
   FFMainViewKit: 087d70508a7b0b612dfcc8e58a7a3a692fc03d74
   FFReformerKeysKit: ec357e389fcd1e17044bd9398017b131cec9325f
-  FFSpecialKit: 9be5271a01f926d8011463e43517fc9beeaf1ce1
+  FFSpecialKit: eafda735c79af772d623bd99e848dcff742be46e
   FFToolsKit: 2a616aeaeea70827e722bd92b7bd52b40ab0ab3d
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

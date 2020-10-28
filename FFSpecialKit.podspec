@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFSpecialKit'
-  s.version          = '1.0.8'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of FFSpecialKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,16 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  #s.subspect 'Special(专题)' do |ss|
-  s.source_files = '************/Classes/Special(专题)/*.{h,m}'
+  s.source_files = 'FFSpecialKit/Classes/**/*'
+
+  s.subspec 'Special(专题)' do |ss|
+      ss.source_files = 'FFSpecialKit/Classes/Special(专题)/*.{h,m}'
+    end
   
-#   s.resource_bundles = {
-#     'FFSpecialKit' => ['FFSpecialKit/Assets/*.png']
-#   }
+  # s.resource_bundles = {
+  #   'FFSpecialKit' => ['FFSpecialKit/Assets/*.png']
+  # }
 
-   s.public_header_files = 'FFSpecialKit/Classes/**/*.h'
-
-
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'Masonry'
     s.dependency 'YYWebImage'

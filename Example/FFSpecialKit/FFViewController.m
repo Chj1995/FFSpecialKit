@@ -7,6 +7,7 @@
 //
 
 #import "FFViewController.h"
+#import "FFSpecialController.h"
 
 @interface FFViewController ()
 
@@ -18,8 +19,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
 
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = [UIColor orangeColor];
+    btn.frame = CGRectMake(100, 100, 100, 40);
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+- (void)btnClick {
+    FFSpecialController *special = [[FFSpecialController alloc] init];
+    [self presentViewController:special animated:YES completion:nil];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -35,10 +35,12 @@
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"special_page" ofType:@"json"];
     NSData *data = [[NSData alloc] initWithContentsOfFile:path];
-    NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    for (NSDictionary *dict in jsonDict[@"result"]) {
-        NSDictionary *dataDict = [reformer reformData:dict];
-        [tempArray addObject:dataDict];
+    if (data) {
+            NSDictionary *jsonDict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+            for (NSDictionary *dict in jsonDict[@"result"]) {
+                NSDictionary *dataDict = [reformer reformData:dict];
+                [tempArray addObject:dataDict];
+            }
     }
     return tempArray.copy;
 }
