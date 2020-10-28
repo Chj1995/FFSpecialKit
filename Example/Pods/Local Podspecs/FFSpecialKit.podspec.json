@@ -1,6 +1,6 @@
 {
   "name": "FFSpecialKit",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "summary": "A short description of FFSpecialKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Chj1995/FFSpecialKit",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/Chj1995/FFSpecialKit.git",
-    "tag": "1.0.0"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "FFSpecialKit/Classes/**/*",
+  "source_files": "FFSpecialKit/Classes/Special(专题)/**/*",
   "dependencies": {
     "Masonry": [
 
