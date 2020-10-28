@@ -1,0 +1,51 @@
+{
+  "name": "FFSpecialKit",
+  "version": "1.0.0",
+  "summary": "A short description of FFSpecialKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chj1995/FFSpecialKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chj1995": "chenhj@actumtech.com"
+  },
+  "source": {
+    "git": "https://github.com/Chj1995/FFSpecialKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFSpecialKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "YYWebImage": [
+
+    ],
+    "ReactiveCocoa": [
+      "~> 2.5"
+    ],
+    "FFCategoryKit": [
+
+    ],
+    "FFToolsKit": [
+
+    ],
+    "FFAPIsKit": [
+
+    ],
+    "FFMainViewKit": [
+
+    ],
+    "FFReformerKeysKit": [
+
+    ],
+    "FFConfigsKit": [
+
+    ]
+  }
+}
